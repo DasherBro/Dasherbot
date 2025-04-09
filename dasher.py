@@ -6,7 +6,7 @@ from datetime import datetime, timedelta  # Removed 'date' as it seems unused he
 import pytz
 import bitget_api
 import signal_generation
-import backtesting
+import strategy_backtester
 import trading_pairs  # Import the new module
 
 # --- Import Sidebar Sections (now used in tabs) ---

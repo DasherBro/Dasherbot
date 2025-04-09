@@ -3,7 +3,7 @@ from datetime import datetime
 import pytz
 import bitget_api  # Assuming you use this for fetching backtest data
 import signal_generation
-import backtesting
+import strategy_backtester
 import pandas as pd
 
 def backtesting_config():
